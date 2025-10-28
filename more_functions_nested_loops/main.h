@@ -17,4 +17,6 @@ void print_line(int n);
 void print_diagonal(int n);
 /* Prototype de print_square (déclaré dans 8-print_square.c) */
 void print_square(int size);
+/* Prototype de print_triangle (déclaré dans 10-print_triangle.c) */
+void print_triangle(int size);
 #endif /* MAIN_H */
