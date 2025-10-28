@@ -9,4 +9,5 @@ int _putchar(char c);
 /* Prototype de print_numbers */
 void print_numbers(void);
 void print_most_numbers(void);
+void more_numbers(void)
 #endif /* MAIN_H */
