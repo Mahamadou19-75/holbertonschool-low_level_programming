@@ -11,4 +11,6 @@ void print_numbers(void);
 void print_most_numbers(void);
 /* Prototype de more_numbers */
 void more_numbers(void);
+/* Prototype de print_line (déclaré dans 6-print_line.c ou fichier correspondant) */
+void print_line(int n);
 #endif /* MAIN_H */
