@@ -15,4 +15,6 @@ void more_numbers(void);
 void print_line(int n);
 /* Prototype de print_diagonal (déclaré dans 7-print_diagonal.c) */
 void print_diagonal(int n);
+/* Prototype de print_square (déclaré dans 8-print_square.c) */
+void print_square(int size);
 #endif /* MAIN_H */
