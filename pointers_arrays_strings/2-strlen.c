@@ -1,19 +1,16 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - teste la fonction _strlen
+ * _strlen - calcule la longueur d'une chaîne de caractères
+ * @s: la chaîne à mesurer
  *
- * Return: toujours 0
+ * Return: longueur de la chaîne
  */
-int main(void)
+int _strlen(char *s)
 {
-	char *str;
-	int len;
-	str = "My first strlen!";
-	len = _strlen(str);
-	printf("%d\n", len);
-	
-	return (0);
+	int len = 0;
+    
+    while (s[len] != '\0')
+	    len++;
+    return (len);
 }
-
