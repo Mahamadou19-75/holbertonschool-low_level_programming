@@ -19,6 +19,6 @@ void print_diagonal(int n);
 void print_square(int size);
 /* Prototype de print_triangle (déclaré dans 10-print_triangle.c) */
 void print_triangle(int size);
-void swap_int(int *a, int *b);
 int _strlen(char *s);
-#endif /* MAIN_H */
+
+#endif
