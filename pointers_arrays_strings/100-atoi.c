@@ -8,8 +8,8 @@
  */
 int _atoi(char *s)
 {
-	long result = 0;  // accumulateur
-	int sign = 1;     // signe
+	long result = 0;  /* accumulateur */
+	int sign = 1;     /* signe */
 	int i = 0;
 
 	while (s[i])
@@ -32,9 +32,11 @@ int _atoi(char *s)
 
 	result *= sign;
 
-	if (result > INT_MAX) return INT_MAX;
-	if (result < INT_MIN) return INT_MIN;
+	if (result > INT_MAX)
+		return (INT_MAX);
+	if (result < INT_MIN)
+		return (INT_MIN);
 
-	return (int)result;
+	return ((int)result);
 }
 
