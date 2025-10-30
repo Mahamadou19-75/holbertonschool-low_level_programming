@@ -1,0 +1,22 @@
+diff --git a/pointers_arrays_strings/8-main.c b/pointers_arrays_strings/8-main.c
+index dcc6405..ee9bdeb 100644
+--- a/pointers_arrays_strings/8-main.c
++++ b/pointers_arrays_strings/8-main.c
+@@ -7,13 +7,9 @@
+  */
+ int main(void)
+ {
+-    int array[5];
++	int array[5] = {98, 402, -198, 298, -1024};
+ 
+-    array[0] = 98;
+-    array[1] = 402;
+-    array[2] = -198;
+-    array[3] = 298;
+-    array[4] = -1024;
+-    print_array(array, 5);
+-    return (0);
++	print_array(array, 5);
++
++	return (0);
+ }
