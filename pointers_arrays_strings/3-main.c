@@ -1,15 +1,22 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - teste la fonction _puts
+ * main - teste la fonction _strspn
  *
  * Return: toujours 0
  */
 int main(void)
 {
-	char *str;
-    
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    _puts(str);
-    return (0);
+	char *s = "hello, world";
+	char *f = "oleh";
+ /* calcule le nombre de caractères initiaux de s présents dans */
+
+	unsigned int n = _strspn(s, f);
+
+ /* affiche le résultat */
+	printf("%u\n", n);
+
+
+	return (0);
 }
