@@ -2,8 +2,6 @@
 #define MAIN_H
 
 #include <stdio.h>
-
-/* Prototype de fonctions éventuelles */
-void print_args(int argc);
+#include <stdlib.h>
 
 #endif /* MAIN_H */
